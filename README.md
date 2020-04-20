@@ -24,7 +24,7 @@ Patient List             |  Live Auditing          | Daily Tasks
     - Presentation (for UI logic, with MVVM)
 - Dependency injection (with [Dagger v2](http://google.github.io/dagger/))
 - View binding (with [Data Binding Library](https://developer.android.com/topic/libraries/data-binding))
-- Background tasks with kotlin Coroutines
+- Asynchronous tasks (with [Kotlin Coroutines](https://github.com/Kotlin/kotlinx.coroutines))
 - Material Design (with [Material Components](https://github.com/material-components/material-components-android))
 - Android architecture components to share ViewModels during configuration changes
 - Resource defaults
