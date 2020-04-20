@@ -12,9 +12,10 @@ SafeCare is a nursing documentation software that allows nurses to record all pa
 * Increase quality and regulation compliance
 
 
-Patient List             |  Patient Details         |      Daily Tasks
+Patient List             |  Live Audit       |      Daily Tasks
 :-------------------------:|:-------------------------:|:-------------------------:
-![Screenshot_1](https://user-images.githubusercontent.com/57268763/79758913-e9e6f280-8315-11ea-8774-ec8c847b4fff.png)  |  ![Screenshot_2](https://user-images.githubusercontent.com/57268763/79759269-5eba2c80-8316-11ea-8ca0-c1a805c526b0.png)   |  ![Screenshot_3](https://user-images.githubusercontent.com/57268763/79759693-eacc5400-8316-11ea-9431-78826ab1a318.png)
+![Screenshot_1](https://user-images.githubusercontent.com/57268763/79758913-e9e6f280-8315-11ea-8774-ec8c847b4fff.png)  |  !
+![Screenshot_4](https://user-images.githubusercontent.com/57268763/79761526-7e068900-8319-11ea-9426-6f976ac9239e.png)  |  ![Screenshot_3](https://user-images.githubusercontent.com/57268763/79759693-eacc5400-8316-11ea-9431-78826ab1a318.png)
 
 
 ## Features
