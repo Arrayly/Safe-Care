@@ -1,4 +1,4 @@
-### Android app starter template
+### Safe Care Digital Auditing App
 
 
 ## About
@@ -6,32 +6,27 @@
 SafeCare is a nursing documentation software that allows nurses to record all patient documentation digitally as opposed to the traditional paper format. In doing so, SafeCare removes the nursing ‘audit’ task, saving 104,000e per nursing home per year.
 
 
-## Business Objectives
+## Business Objectives 🎯
 * Speed up documentation time for nurses by 60%
 * Remove the need for nurses to audit nursing homes. In turn saving 2,000e per nursing home per week
 * Increase quality and regulation compliance
 
-
+Patient List             |  Live Auditing          | Daily Tasks
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/57268763/79762207-59f77780-831a-11ea-8d14-9640dd274f9d.png)  |  ![](https://user-images.githubusercontent.com/57268763/79761526-7e068900-8319-11ea-9426-6f976ac9239e.png) | ![Screenshot_3](https://user-images.githubusercontent.com/57268763/79762569-d2f6cf00-831a-11ea-8379-0681b5083d36.png)
 
 
 
 ## Features
 - Clean architecture with 3 layers
-    - Data (for models, database, API and preferences)
+    - Data (for models, database, and preferences)
     - Domain (for business logic)
     - Presentation (for UI logic, with MVVM)
-- Tests
-    - Unit tests
-    - Application tests
-    - Activity tests (with [Espresso](https://google.github.io/android-testing-support-library/docs/espresso/))
-    - Application has a testing flag
 - Dependency injection (with [Dagger v2](http://google.github.io/dagger/))
-- View injection (with [Butterknife](http://jakewharton.github.io/butterknife/))
-- Reactive programming with RxJava 2 and RxAndroid
-- Preconditions
-- Google Design library
+- View binding (with [Data Binding Library](https://developer.android.com/topic/libraries/data-binding))
+- Background tasks with kotlin Coroutines
+- Material Design (with [Material Components](https://github.com/material-components/material-components-android))
 - Android architecture components to share ViewModels during configuration changes
-- Logging (with [Timber](https://github.com/JakeWharton/timber))
 - Resource defaults
     - styles.xml
     - dimens.xml
