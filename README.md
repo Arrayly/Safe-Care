@@ -1,4 +1,7 @@
-### Safe Care Digital Auditing App
+### Safe Care Digital Auditing MVP
+```
+Android Native - Kotlin
+```
 
 
 ## About
