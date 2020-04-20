@@ -1,15 +1,16 @@
 ### Safe Care Digital Auditing MVP
 ```
 Android Native - Kotlin
+
 ```
 
-
-## About
+## About 
 
 SafeCare is a nursing documentation software that allows nurses to record all patient documentation digitally as opposed to the traditional paper format. In doing so, SafeCare removes the nursing ‘audit’ task, saving 104,000e per nursing home per year.
 
+This is a Minimum Viable Product (MVP) and we are still in the early stages of development.
 
-## Business Objectives 🎯
+## Business Objectives 
 * Speed up documentation time for nurses by 60%
 * Remove the need for nurses to audit nursing homes. In turn saving 2,000e per nursing home per week
 * Increase quality and regulation compliance
@@ -21,40 +22,26 @@ Patient List             |  Live Auditing          | Daily Tasks
 
 
 ## Features
-- Clean architecture with 3 layers
-    - Data (for models, database, and preferences)
-    - Domain (for business logic)
-    - Presentation (for UI logic, with MVVM)
+- Clean architecture with MVVM
 - Dependency injection (with [Dagger v2](http://google.github.io/dagger/))
 - View binding (with [Data Binding Library](https://developer.android.com/topic/libraries/data-binding))
 - Asynchronous tasks (with [Kotlin Coroutines](https://github.com/Kotlin/kotlinx.coroutines))
 - Material Design (with [Material Components](https://github.com/material-components/material-components-android))
-- Android architecture components to share ViewModels during configuration changes
-- Resource defaults
-    - styles.xml
-    - dimens.xml
-    - colors.xml
 
-## Getting started
-
-1. Download this repository and open it on Android Studio
-1. Rename the app package `io.bloco.template`
-1. On `AndroidApplication.java`, change the package on the `checkTestMode` method
-1. On `app/build.gradle`, change the applicationId to the new app package
-1. On `app/build.gradle`, update the dependencies Android Studio suggests
-1. On `string.xml`, set your application name 
-1. On `colors.xml`, set your application primary and secondary colors 
-
-And you're ready to start working on your new app.
-
-## Notes
-
-- Make sure the method `checkTestMode` inside `AndroidApplication` includes a test class
-  that exists
+## Demo
+```
+Download and install APK by following the link below:
+```
+[Download](https://drive.google.com/file/d/15pV8z7FpfvMZsyafOVARLtJTVbgIV5b8/view?usp=sharing)
 
 ## To Do
 
-- Analytics (Google Analytics and Answers, at least)
+- AWS or Firebase for full Backend integration
+- UI Testing
+- Security with HTTPS and SSL
+- Personal data encryption
 - Crashlytics
 - SharedPreferences helper with RxPreferences
 
+## Acknowledgements
+* [**Ali-Rose Sisk**](https://www.linkedin.com/in/ali-rose-sisk-a55b0217b/?originalSubdomain=ie) owner of Safe Care, responsible for the initial concept and features which are being added to this application.
