@@ -22,7 +22,7 @@ Patient List             |  Live Auditing          | Daily Tasks
 
 
 ## Features
-- Clean architecture with MVVM
+- Local database caching (with[Room persistence library](https://developer.android.com/training/data-storage/room)) and MVVM architecture
 - Dependency injection (with [Dagger v2](http://google.github.io/dagger/))
 - View binding (with [Data Binding Library](https://developer.android.com/topic/libraries/data-binding))
 - Asynchronous tasks (with [Kotlin Coroutines](https://github.com/Kotlin/kotlinx.coroutines))
